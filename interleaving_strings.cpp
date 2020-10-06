@@ -28,7 +28,7 @@ public:
     			if (i < s1.size() && s3[arr[i][j]] == s1[i]) 
     				arr[i+1][j] = arr[i][j] + 1;
     			
-    			if (j < s2.size() && s3[arr[i][j]] == s2[j]) 
+				if (j < s2.size() && s3[arr[i][j]] == s2[j]) 
     				arr[i][j+1] = arr[i][j] + 1;
     		
     		}
