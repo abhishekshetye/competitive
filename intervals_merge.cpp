@@ -4,7 +4,6 @@ public:
         
         vector<vector<int>> ans;
 
-
         int mStart = getStart(newInterval), mEnd = getEnd(newInterval), merge = 0;
         
         if (intervals.size() == 0 || getEnd(newInterval) < getStart(intervals[0])) {
